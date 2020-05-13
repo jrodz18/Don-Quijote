@@ -82,7 +82,7 @@
 
 #navbar{
 
-    background-color:rgba(0,0,0,0.7);
+    background-color:burlywood;
 
 }
 
@@ -113,9 +113,9 @@
 
 a{
 
-    color:white;
+    color:black;
 
-    text-decoration: none;
+    text-decoration:none;
 
 }
 .flexCentered {
@@ -130,11 +130,14 @@ align-content: center ;
     width:100%;
     height:100%;
 }
+
 .newspaper {
     column-count: 2;
     padding: 5px;
-    width: 100%
-}
+    width: 100%; 
+    text-overflow: ellipsis; color: saddlebrown;
+    
+    }
 
 img {
         width:200px;
@@ -146,4 +149,7 @@ img {
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+#bar{
+    background-color: burlywood
 }
